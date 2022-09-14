@@ -154,12 +154,15 @@ button {
 }
 
 .card {
-  width: 100%;
+  width: 30%;
   height: 100%;
+  gap: 3px;
   padding: 50px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
@@ -190,6 +193,7 @@ button {
   }
 
   .card {
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
   }
 }
